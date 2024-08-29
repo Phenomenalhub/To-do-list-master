@@ -1,0 +1,83 @@
+.task {
+  width: 100%;
+  height: 100%;
+  background: #131313;
+  border: 1px solid #333333;
+  padding: 16px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.task p {
+  font-size: 14px;
+  line-height: 19px;
+  color: #F2F2F2;
+  margin-right: auto;
+}
+
+p.textCompleted {
+  color: #808080;
+  text-decoration: line-through;
+}
+
+.checkContainer {
+  width: 18px;
+  height: 18px;
+  background: none;
+  border: none;
+}
+
+.checkContainer div {
+  width: 100%;
+  height: 100%;
+  border-radius: 999px;
+  border: 2px solid #4EA8DE;
+}
+
+.checkContainer svg {
+  width: 100%;
+  height: 100%;
+  color: #5E60CE;
+}
+
+.editInput {
+  background: #1e1e1e;
+  border: 1px solid #4EA8DE;
+  color: #F2F2F2;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.editButton, .saveButton, .cancelButton, .deleteButton {
+  background: none;
+  border: none;
+  color: #808080;
+  cursor: pointer;
+}
+
+.editButton:hover, .saveButton:hover, .cancelButton:hover, .deleteButton:hover {
+  color: #ffffff;
+}
+
+.editButton, .saveButton, .cancelButton, .deleteButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #808080;
+}
+
+.editButton:hover, .saveButton:hover, .cancelButton:hover, .deleteButton:hover {
+  background: #333333;
+  border-color: #ffffff;
+}
